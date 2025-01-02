@@ -1,4 +1,6 @@
-
+body {
+    font-family: Pixelify Sans, Arial;
+}
 
 div {
     width: 500px;
@@ -13,7 +15,6 @@ div {
 }
 
 p {
-    font-family: Arial;
     font-size: 18px;
     margin-bottom: 0px;
     margin-top: 0px;
