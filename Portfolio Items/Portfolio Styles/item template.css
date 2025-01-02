@@ -7,7 +7,7 @@ div {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     border-style: solid;
     border-radius: 8px;
-    display: inline-block;
+    display: flex;
     border-color: blue;
     margin-right: 8px;
     margin-bottom: 8px;
