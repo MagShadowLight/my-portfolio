@@ -6,19 +6,19 @@
     align-items: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 100px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width:901px) and (max-width: 1030px) {
+@media (min-width:1001px) and (max-width: 1250px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1031px) and (max-width: 1550px) {
+@media (min-width: 1251px) and (max-width: 1550px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
