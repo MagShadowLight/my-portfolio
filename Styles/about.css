@@ -1,0 +1,23 @@
+.about-section div,
+.github-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.project-title {
+  font-size: 50px;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.contributor-name {
+  font-size: 20px;
+}
+
+.github-link {
+  font-size: 16px;
+}

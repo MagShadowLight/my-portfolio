@@ -1,0 +1,13 @@
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
