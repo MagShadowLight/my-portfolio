@@ -13,9 +13,7 @@
 }
 
 @media (max-width: 1100px) {
-  .project-description, 
-  .contributor-name,
-  .github-link {
+  .button {
     font-size: 100px;
   }
 }
