@@ -10,6 +10,10 @@
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    .portfolio-items p {
+        font-size: 40px;
+    }
 }
 
 @media (min-width:1101px) and (max-width: 1500px) {
