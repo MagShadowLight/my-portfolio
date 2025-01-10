@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width:1201px) and (max-width: 1300px) {
+@media (min-width:1251px) and (max-width: 1300px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;
 
