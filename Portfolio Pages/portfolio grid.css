@@ -6,9 +6,9 @@
     align-items: center;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1000px) {
     .portfolio-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;   
     }
 
     .name,
@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width:1251px) and (max-width: 1300px) {
+@media (min-width:1001px) and (max-width: 1250px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;
 
@@ -29,17 +29,15 @@
     }
 }
 
-@media (min-width:1301px) and (max-width: 1500px) {
+@media (min-width: 1251px) and (max-width: 1500px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr;
-
-
     }
 }
 
 @media (min-width: 1501px) and (max-width: 1750px) {
     .portfolio-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
