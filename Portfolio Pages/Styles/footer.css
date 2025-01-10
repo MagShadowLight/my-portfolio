@@ -33,20 +33,32 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .pagination a {
   margin: 16px;
 }
 
-.pagination button {
+.next-button, .prev-button {
   padding: 12px 16px 12px 16px;
   background-color: blue;
   color: white;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .pagination {
   margin: 16px;
+}
+
+.page-active {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page {
+  color: black;
 }
 
