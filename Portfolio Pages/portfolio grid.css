@@ -11,7 +11,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .portfolio-items p {
+    .name,
+    .Description,
+    .creationdate,
+    .updatedate,
+    .updateversion,
+    .link {
         font-size: 40px;
     }
 }
@@ -19,6 +24,8 @@
 @media (min-width:1101px) and (max-width: 1500px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr;
+
+
     }
 }
 
@@ -31,6 +38,22 @@
 @media (min-width: 1751px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:1101px) {
+    .name {
+        font-size: 24px;
+    }
+    .Description,
+    .creationdate,
+    .updatedate,
+    .updateversion {
+        font-size: 16px;
+    }
+
+    .link {
+        font-size: 18px;
     }
 }
 
@@ -47,12 +70,11 @@
 }
 
 .name  {
-    font-size: 24px;
+    
     margin-bottom: 16px;
     font-weight: bold;
 }
 .Description {
-    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -67,7 +89,6 @@
     background-color: blue;
     border-radius: 50px;
     color: white;
-    font-size: 18px;
     font-weight: bold;
 }
 
