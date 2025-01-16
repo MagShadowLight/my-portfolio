@@ -1,12 +1,12 @@
-.portfolio-grid {
+/* .portfolio-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 5px;
     row-gap: 10px;
     align-items: center;
-}
+} */
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .portfolio-grid {
         grid-template-columns: 1fr;   
     }
@@ -45,6 +45,16 @@
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+} */
+
+.name,
+.Description,
+.creationdate,
+.updatedate,
+.updateversion,
+.link {
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 @media (min-width:1101px) {
@@ -100,7 +110,7 @@
 
 .portfolio-items img {
     flex: 1;
-    width: 200px;
+    width: 100%;
 }
 
 
