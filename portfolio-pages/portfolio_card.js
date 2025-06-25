@@ -63,7 +63,7 @@ class MeowCard extends HTMLElement
 						<p class="updateversion">
 							${this.updateversion}
 						</p>
-						<a class="link" href="Portfolio Items/item template.html">
+						<a class="link" href="portfolio-items/item template.html">
 							Item Links
 						</a>
 				</div>`;
